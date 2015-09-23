@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="ToggleImageButton">
+		<attr name="background_toggled" format="integer" />
+		<attr name="background_untoggled" format="integer" />
+	</declare-styleable>
+</resources>

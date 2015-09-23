@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<MediaController android:id="@+id/MediaController01" android:layout_width="wrap_content" android:layout_height="wrap_content"></MediaController>
+<ListView android:id="@+id/ListView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ListView>
+</LinearLayout>
+<!-- From: file:/home/wolke/develop/git/ardroid-export/app/src/main/res/layout-normal-notlong-land-mdpi-finger-keyssoft-nokeys-trackball-480x320/main.xml -->

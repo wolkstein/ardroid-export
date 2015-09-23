@@ -1,0 +1,12 @@
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:minWidth="200dp" android:padding="20dp">
+	<TextView android:text="@+id/TextView02" android:id="@+id/config_host_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="18dp"></TextView>
+	<EditText android:id="@+id/config_host" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:maxLines="1"></EditText>
+	<TextView android:text="@+id/TextView01" android:id="@+id/config_port_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="18dp"></TextView>
+	<EditText android:id="@+id/config_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:minLines="1"></EditText>
+	
+	<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<Button android:text="OK" android:id="@+id/config_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50dp" android:width="80dp"></Button>
+		<Button android:text="Cancel" android:id="@+id/config_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="80dp"></Button>
+	</LinearLayout>
+</LinearLayout>
+<!-- From: file:/home/wolke/develop/git/ardroid-export/app/src/main/res/layout/options_dialog.xml -->

@@ -1,0 +1,56 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:7
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+application
+ADDED from AndroidManifest.xml:7:5
+	android:label
+		ADDED from AndroidManifest.xml:7:70
+	android:debuggable
+		ADDED from AndroidManifest.xml:7:103
+	android:icon
+		ADDED from AndroidManifest.xml:7:18
+activity#org.ardour.ArdroidMain
+ADDED from AndroidManifest.xml:8:9
+	android:label
+		ADDED from AndroidManifest.xml:8:19
+	android:name
+		ADDED from AndroidManifest.xml:8:52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:9:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:10:17
+	android:name
+		ADDED from AndroidManifest.xml:10:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:11:17
+	android:name
+		ADDED from AndroidManifest.xml:11:27
+uses-sdk
+ADDED from AndroidManifest.xml:15:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:15:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:16:2
+	android:name
+		ADDED from AndroidManifest.xml:16:19
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from AndroidManifest.xml:17:2
+	android:name
+		ADDED from AndroidManifest.xml:17:19

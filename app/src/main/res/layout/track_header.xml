@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:orientation="horizontal" android:layout_height="wrap_content" android:focusable="false" xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<TextView
+		android:id="@+id/tTrackName"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:typeface="sans"
+    	android:text="@string/app_name"
+    	android:textSize="20sp"
+    	android:layout_marginLeft="3dp"
+		android:maxWidth="160dp"
+    	android:minWidth="100dp"
+    	android:minHeight="50dp"
+    	android:paddingLeft="5dp"
+    	android:gravity="left|center"/>
+
+	<SeekBar
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:scaleType="fitCenter"
+		android:layout_gravity="center"
+		android:id="@+id/sbTrackVolume"
+		android:layout_weight="1"
+		android:layout_marginLeft="5dp"
+		android:splitTrack="false"
+		android:progressTint="#ff44ff2f"
+		android:thumb="@drawable/ardour_icon_tango_48px_red" />
+
+	<ImageView
+		android:id="@+id/bRecEnable"
+		android:clickable="true"
+		android:layout_width="wrap_content"
+		android:src="@drawable/act_disabled"
+		android:layout_weight="0.1"
+		android:background="#00000000"
+		android:layout_height="wrap_content" 
+		android:scaleType="fitCenter"
+		android:layout_gravity="center" 
+		android:minWidth="50dp"
+		android:minHeight="40dp"
+		android:layout_marginRight="5dp"/>
+		
+	<ImageView 
+		android:id="@+id/bMuteEnable"
+		android:clickable="true"
+		android:layout_width="wrap_content"
+		android:src="@drawable/act_disabled" 
+		android:layout_weight="0.1"
+		android:background="#00000000"
+		android:layout_height="wrap_content" 
+		android:scaleType="fitCenter"
+		android:layout_gravity="center" 
+		android:minWidth="50dp"
+		android:minHeight="40dp"
+		android:layout_marginRight="5dp"/>
+		
+	<ImageView 
+		android:id="@+id/bSoloEnable"
+		android:clickable="true" 
+		android:layout_width="wrap_content"
+		android:src="@drawable/act_disabled"
+		android:layout_weight="0.1"
+		android:background="#00000000" 
+		android:layout_height="wrap_content" 
+		android:scaleType="fitCenter"
+		android:layout_gravity="center" 
+		android:minWidth="50dp"
+		android:minHeight="40dp"
+		android:layout_marginRight="5dp"/>
+	<!-- 
+	<ImageView 
+		android:id="@+id/bSoloIsolateEnable" 
+		android:layout_width="wrap_content" 
+		android:src="@drawable/act_disabled" 
+		android:layout_weight="0.1" 
+		android:background="#ff000000" 
+		android:layout_height="wrap_content" 
+		android:scaleType="fitCenter" 
+		android:layout_gravity="center" 
+		android:minWidth="30dp" 
+		android:minHeight="20dp" 
+		android:layout_marginRight="15dp"/>
+	 -->	
+</LinearLayout>

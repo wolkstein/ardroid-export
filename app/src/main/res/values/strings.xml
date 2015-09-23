@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Control!</string>
+    <string name="app_name">Ardroid</string>
+	<string name="main_controller">OscService</string>
+	<string name="clock">00:00:00:0000</string>
+</resources>

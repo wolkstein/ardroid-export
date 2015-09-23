@@ -1,0 +1,22 @@
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:padding="20dp" android:minWidth="200dp" xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<TextView android:text="Track" android:id="@+id/TextView01" android:textSize="18dp" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	
+	<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<CheckBox android:text="Record Enable" android:id="@+id/rec_enabled_rb" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<CheckBox android:text="Mute" android:id="@+id/mute_rb" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<CheckBox android:text="Solo" android:id="@+id/solo_rb" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<Button android:text="OK" android:id="@+id/track_diag_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50dp" android:width="80dp"></Button>
+		<Button android:text="Cancel" android:id="@+id/track_diag_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="80dp"></Button>
+	</LinearLayout>
+	
+</LinearLayout>

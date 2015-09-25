@@ -339,6 +339,7 @@ public void trackListVolumeAction( org.ardour.Track track, int position){
 				
 		try {
 			oscClient.send (message);
+			//Log.d(TAG, "Send Message: " + message.getName());
 		}
 		catch (IOException e){
 			Log.d(TAG, "Could not send OSC message: " + messageUri);
@@ -354,7 +355,8 @@ public void trackListVolumeAction( org.ardour.Track track, int position){
 		
 		@Override
 		public void messageReceived(OSCMessage message, SocketAddress addr, long time) {
-			
+
+
 			//Log.d(TAG, "Received Reply: " + message.getName());
 			
 			switch (state){

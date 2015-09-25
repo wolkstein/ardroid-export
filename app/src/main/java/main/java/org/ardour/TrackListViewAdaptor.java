@@ -57,8 +57,10 @@ public class TrackListViewAdaptor extends ArrayAdapter<org.ardour.Track> {
         }
         
         //view.setTag(track);
-        
+
         ImageView rec = (ImageView) view.findViewById(R.id.bRecEnable);
+        if(track.type == org.ardour.Track.BUS)
+            rec.setImageAlpha(0); // hide rec button on audiobus
         rec.setOnClickListener(onClickListener);
         rec.setTag(track);
         

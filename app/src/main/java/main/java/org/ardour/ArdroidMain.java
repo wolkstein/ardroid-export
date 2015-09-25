@@ -566,7 +566,7 @@ public class ArdroidMain extends Activity implements OnClickListener {
 				oscService.getClock();
 				
 				try {
-					Thread.sleep(50);
+					Thread.sleep(250);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
